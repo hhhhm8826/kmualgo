@@ -1,0 +1,103 @@
+
+.main-img{
+	margin-top: -8%;
+	margin-left: 30%;
+	position: absolute;
+	z-index: 1;
+}
+
+.mouse{
+	position: absolute;
+	z-index: 2;
+	margin-left: 47%;
+	margin-top: 10%;
+}
+
+.wifi{
+	position: absolute;
+	z-index: 2;
+	margin-left: 31%;
+	margin-top: 10%;
+	display: none;
+}
+
+#char_st{
+	margin-top: 56.5%;
+}
+
+.img{
+	margin-left: 35%;
+}
+
+.logo{
+	margin-left: 14%;
+}
+
+.blocked{
+	margin-left: 35%;
+	width: 640px;
+	height: 400px;
+	position: relative;
+	-webkit-perspective: 800;
+} /*사용자와 화면 사이에 z축 상의 object 위치를 설정*/
+
+#card{
+	width: 100%;
+  	height: 100%;
+  	position: absolute;
+  	-webkit-transform-style: preserve-3d;
+  	-webkit-transition: -webkit-transform 1s;
+}	/*3d 효과 적용 상태를 유지시키고 1초에 걸쳐 효과가 진행됨*/
+
+#card figure{
+  	display: block;
+  	position: absolute;
+  	width: 100%;
+  	height: 100%;
+  	-webkit-backface-visibility: hidden;
+}	/*뒤로 돌아가있는 figure는 숨겨둠*/
+
+#card .char_ft{
+	background: green;
+}
+
+#card .char_bk{
+	background: blue;
+	-webkit-transform: rotateY( 180deg );
+}	/*y축을 따라 회전함*/
+
+#card.flipped{
+	-webkit-transform: rotateY( 180deg );
+}
+
+#card_img{
+	width: 100%;
+	height: 100%;
+}
+
+#listed{
+	width: 900px;
+	height: 500px;
+	margin-left: 27%;
+	text-align: left;
+}
+
+.line24{
+	text-indent: 30px;
+}
+
+.listed_img{
+	max-width: 500%;
+	max-height: 500%;
+	width: 80%;
+	border: 0;
+	opacity: 0.5;
+}
+
+.listed_txt{
+	max-width: 500%;
+	max-height: 500%;
+	width: 50%;
+	border: 0;
+	display: none;
+}

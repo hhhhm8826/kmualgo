@@ -1,0 +1,56 @@
+ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	width: 20%;
+	height: 100%;
+	position: fixed;
+	background-color: #5F9EA0;
+}
+li a{
+	display: block;
+	color: #F0FFFF;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 20px;
+	font-family: "Nanum Gothic", sans-serif;
+	padding: 8px 0px 12px 30px;
+	-webkit-transition: all .3s ease;
+}
+li:first-child{
+	margin-bottom: 80px;
+	padding-top: 8px;
+}
+.img_li{
+	padding-top: 90px;
+}
+
+#hm a:hover{
+	text-decoration: underline;
+	color: #DDA0DD;
+	background: url(home-icon.jpeg) no-repeat;
+}
+
+#ch a:hover{
+	text-decoration: underline;
+	color: #DDA0DD;
+	background: url(char-icon.jpeg) no-repeat;
+}
+
+#pp a:hover{
+	text-decoration: underline;
+	color: #DDA0DD;
+	background: url(popo-icon.jpeg) no-repeat;
+}
+
+#op a:hover{
+	text-decoration: underline;
+	color: #DDA0DD;
+	background: url(outp-icon.jpeg) no-repeat;
+}
+
+#ft a:hover{
+	text-decoration: underline;
+	color: #DDA0DD;
+	background: url(frtm-icon.jpeg) no-repeat;
+}
